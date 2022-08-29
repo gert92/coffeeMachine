@@ -97,6 +97,7 @@ public class Machine {
 
         if (missingItems.size() > 0){
             System.out.printf("Sorry, can't make coffee, no %s \n", missingItems.get(0));
+            state = State.IDLE;
             return false;
         }
         return true;
