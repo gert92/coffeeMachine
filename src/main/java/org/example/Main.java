@@ -13,6 +13,5 @@ public class Main {
                 case STATS -> machine.showStats();
             }
         }
-        System.out.println();
     }
 }
